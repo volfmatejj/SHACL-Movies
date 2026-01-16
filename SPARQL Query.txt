@@ -1,0 +1,38 @@
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {
+  ?film a dbo:Film ;
+        rdfs:label ?title ;
+        dbo:releaseDate ?releaseDate ;
+        dbo:director ?director ;
+        dbo:starring ?actor ;
+        dbo:genre ?genre ;
+        dbo:budget ?budget ;
+        dbo:runtime ?runtime .
+
+  ?director rdfs:label ?directorName .
+  ?actor rdfs:label ?actorName .
+}
+WHERE {
+  ?film a dbo:Film .
+
+  OPTIONAL { ?film rdfs:label ?title . FILTER(lang(?title) = "en") }
+  OPTIONAL { ?film dbo:releaseDate ?releaseDate }
+
+  OPTIONAL {
+    ?film dbo:director ?director .
+    OPTIONAL { ?director rdfs:label ?directorName . FILTER(lang(?directorName) = "en") }
+  }
+
+  OPTIONAL {
+    ?film dbo:starring ?actor .
+    OPTIONAL { ?actor rdfs:label ?actorName . FILTER(lang(?actorName) = "en") }
+  }
+
+  OPTIONAL { ?film dbo:genre ?genre }
+
+  OPTIONAL { ?film dbo:budget ?budget }
+  OPTIONAL { ?film dbo:runtime ?runtime }
+}
+LIMIT 100

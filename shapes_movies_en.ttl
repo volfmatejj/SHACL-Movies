@@ -1,0 +1,96 @@
+@prefix :    <http://example.org/shapes/> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+
+:FilmShape
+  a sh:NodeShape ;
+  sh:targetClass dbo:Film ;
+
+  # ----------------------------
+  # Hard constraints (Violations)
+  # ----------------------------
+
+  sh:property [
+    sh:path rdfs:label ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:languageIn ("en") ;
+    sh:message "A film must have at least one English rdfs:label (language-tagged literal @en)."@en ;
+  ] ;
+
+  sh:property [
+    sh:path dbo:director ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:message "A film must have at least one dbo:director, and the value must be an IRI."@en ;
+  ] ;
+
+  sh:property [
+    sh:path dbo:runtime ;
+    sh:minCount 1 ;
+    sh:or (
+      [ sh:datatype xsd:double ]
+      [ sh:datatype xsd:decimal ]
+      [ sh:datatype xsd:integer ]
+    ) ;
+    sh:minInclusive 60 ;
+    sh:maxInclusive 18000 ;
+    sh:message "A film must have dbo:runtime; it must be numeric and between 60 and 18000 seconds (1 min .. 5 hours)."@en ;
+  ] ;
+
+  sh:property [
+    sh:path dbo:releaseDate ;
+    sh:maxCount 1 ;
+    sh:or ( [ sh:datatype xsd:date ] [ sh:datatype xsd:dateTime ] ) ;
+    sh:message "dbo:releaseDate must not be multi-valued; if present, it must be xsd:date or xsd:dateTime."@en ;
+  ] ;
+
+  sh:property [
+    sh:path dbo:starring ;
+    sh:nodeKind sh:IRI ;
+    sh:message "If dbo:starring is present, each value should be an IRI (link to an actor resource)."@en ;
+  ] ;
+
+  # -------------------------
+  # Soft constraints (Warnings)
+  # -------------------------
+
+  sh:property [
+    sh:severity sh:Warning ;
+    sh:path dbo:director ;
+    sh:class dbo:Person ;
+    sh:message "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+  ] ;
+
+  sh:property [
+    sh:severity sh:Warning ;
+    sh:path dbo:starring ;
+    sh:class dbo:Person ;
+    sh:message "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+  ] ;
+
+  sh:property [
+    sh:severity sh:Warning ;
+    sh:path dbo:genre ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:IRI ;
+    sh:message "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+  ] ;
+
+  sh:property [
+    sh:severity sh:Warning ;
+    sh:path dbo:budget ;
+    sh:minCount 1 ;
+    sh:nodeKind sh:Literal ;
+    sh:message "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+  ] ;
+
+  sh:property [
+    sh:severity sh:Warning ;
+    sh:path dbo:budget ;
+    sh:maxCount 1 ;
+    sh:message "Recommended: dbo:budget should be single-valued; multiple budgets may indicate duplicates or alternative sources."@en ;
+  ] .

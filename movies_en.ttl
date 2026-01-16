@@ -1,0 +1,491 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbr:A_Dry_White_Season	rdf:type	dbo:Film .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbr:A_Dry_White_Season	rdfs:label	"A Dry White Season"@en .
+@prefix dbd:	<http://dbpedia.org/datatype/> .
+dbr:A_Dry_White_Season	dbo:budget	"9000000.0"^^dbd:usDollar ;
+	dbo:director	dbr:Euzhan_Palcy .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:A_Dry_White_Season	dbo:runtime	"6420.0"^^xsd:double ;
+	dbo:starring	<http://dbpedia.org/resource/J\u00FCrgen_Prochnow> ,
+		dbr:Zakes_Mokae ,
+		dbr:Donald_Sutherland ,
+		dbr:Marlon_Brando ,
+		dbr:Janet_Suzman .
+<http://dbpedia.org/resource/A_Night_to_Remember_(1958_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"A Night to Remember (1958 film)"@en ;
+	dbo:budget	"500.0"^^dbd:poundSterling ;
+	dbo:director	dbr:Roy_Ward_Baker ;
+	dbo:runtime	"7380.0"^^xsd:double ;
+	dbo:starring	dbr:Kenneth_Griffith ,
+		dbr:Tucker_McGuire .
+<http://dbpedia.org/resource/A_Reason_to_Live,_a_Reason_to_Die>	rdf:type	dbo:Film ;
+	rdfs:label	"A Reason to Live, a Reason to Die"@en ;
+	dbo:director	dbr:Tonino_Valerii ;
+	dbo:runtime	"6720.0"^^xsd:double ;
+	dbo:starring	dbr:Bud_Spencer ,
+		dbr:James_Coburn .
+dbr:A_Separation	rdf:type	dbo:Film ;
+	rdfs:label	"A Separation"@en ;
+	dbo:budget	"800000.0"^^dbd:usDollar ;
+	dbo:director	dbr:Asghar_Farhadi ;
+	dbo:runtime	"7380.0"^^xsd:double ;
+	dbo:starring	dbr:Shahab_Hosseini ,
+		dbr:Payman_Maadi ,
+		dbr:Merila_Zarei .
+<http://dbpedia.org/resource/Aida_(1953_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Aida (1953 film)"@en ;
+	dbo:director	dbr:Clemente_Fracassi ;
+	dbo:runtime	"5700.0"^^xsd:double ;
+	dbo:starring	dbr:Giuseppe_Campora .
+dbr:Alibi_Ike	rdf:type	dbo:Film ;
+	rdfs:label	"Alibi Ike"@en ;
+	dbo:director	dbr:Ray_Enright ;
+	dbo:runtime	"4320.0"^^xsd:double ;
+	dbo:starring	<http://dbpedia.org/resource/Joe_E._Brown> .
+dbr:Arctic_Blue	rdf:type	dbo:Film ;
+	rdfs:label	"Arctic Blue"@en ;
+	dbo:budget	"6000000.0"^^dbd:usDollar ;
+	dbo:director	dbr:Peter_Masterson ;
+	dbo:runtime	"5700.0"^^xsd:double ;
+	dbo:starring	dbr:Dylan_Walsh .
+dbr:Ardh_Satya	rdf:type	dbo:Film ;
+	rdfs:label	"Ardh Satya"@en ;
+	dbo:budget	"15.0"^^dbd:indianRupee ;
+	dbo:director	dbr:Govind_Nihalani ;
+	dbo:runtime	"7800.0"^^xsd:double ;
+	dbo:starring	dbr:Amrish_Puri ,
+		dbr:Sadashiv_Amrapurkar .
+<http://dbpedia.org/resource/Attack_(1956_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Attack (1956 film)"@en ;
+	dbo:budget	"810000.0"^^dbd:usDollar ;
+	dbo:director	dbr:Robert_Aldrich ;
+	dbo:runtime	"6420.0"^^xsd:double ;
+	dbo:starring	dbr:Lee_Marvin ,
+		dbr:Jack_Palance .
+<http://dbpedia.org/resource/Baby\u0027s_Day_Out>	rdf:type	dbo:Film ;
+	rdfs:label	"Baby's Day Out"@en ;
+	dbo:budget	"4.8E7"^^dbd:usDollar ;
+	dbo:director	dbr:Patrick_Read_Johnson ;
+	dbo:runtime	"5940.0"^^xsd:double ;
+	dbo:starring	dbr:Lara_Flynn_Boyle ,
+		dbr:Joe_Mantegna .
+<http://dbpedia.org/resource/Brigadoon_(film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Brigadoon (film)"@en ;
+	dbo:budget	"3019000.0"^^dbd:usDollar ;
+	dbo:director	dbr:Vincente_Minnelli ;
+	dbo:runtime	"6480.0"^^xsd:double ;
+	dbo:starring	dbr:Albert_Sharpe ,
+		<http://dbpedia.org/resource/Barry_Jones_(actor)> ,
+		dbr:Gene_Kelly .
+dbr:Brother_Bear_2	rdf:type	dbo:Film ;
+	rdfs:label	"Brother Bear 2"@en ;
+	dbo:director	dbr:Benjamin_Gluck ;
+	dbo:runtime	"4380.0"^^xsd:double ;
+	dbo:starring	dbr:Kathy_Najimy ,
+		dbr:Wanda_Sykes .
+<http://dbpedia.org/resource/Cobra_(1986_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Cobra (1986 film)"@en ;
+	dbo:budget	"2.5E7"^^dbd:usDollar ;
+	dbo:director	<http://dbpedia.org/resource/George_P._Cosmatos> ;
+	dbo:runtime	"5340.0"^^xsd:double ;
+	dbo:starring	dbr:Brigitte_Nielsen .
+dbr:Despicable_Me_2	rdf:type	dbo:Film ;
+	rdfs:label	"Despicable Me 2"@en ;
+	dbo:budget	"7.6E7"^^dbd:usDollar ;
+	dbo:director	dbr:Chris_Renaud ;
+	dbo:runtime	"5880.0"^^xsd:double ;
+	dbo:starring	dbr:Steve_Carell ,
+		dbr:Miranda_Cosgrove ,
+		dbr:Steve_Coogan ,
+		dbr:Benjamin_Bratt ,
+		dbr:Russell_Brand .
+<http://dbpedia.org/resource/Devi_(1960_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Devi (1960 film)"@en ;
+	dbo:director	dbr:Satyajit_Ray ;
+	dbo:runtime	"5580.0"^^xsd:double ;
+	dbo:starring	dbr:Soumitra_Chatterjee ,
+		dbr:Chhabi_Biswas .
+<http://dbpedia.org/resource/Don\u0027t_Open_till_Christmas>	rdf:type	dbo:Film ;
+	rdfs:label	"Don't Open till Christmas"@en ;
+	dbo:director	dbr:Edmund_Purdom ;
+	dbo:runtime	"5160.0"^^xsd:double ;
+	dbo:starring	dbr:Caroline_Munro .
+<http://dbpedia.org/resource/Doubt_(2008_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Doubt (2008 film)"@en ;
+	dbo:budget	"2.0E7"^^dbd:usDollar ;
+	dbo:director	dbr:John_Patrick_Shanley ;
+	dbo:runtime	"6240.0"^^xsd:double ;
+	dbo:starring	dbr:Amy_Adams ,
+		dbr:Meryl_Streep .
+dbr:Emmanuelle_5	rdf:type	dbo:Film ;
+	rdfs:label	"Emmanuelle 5"@en ;
+	dbo:director	dbr:Walerian_Borowczyk ;
+	dbo:runtime	"5100.0"^^xsd:double ;
+	dbo:starring	dbr:Monique_Gabrielle .
+<http://dbpedia.org/resource/Fantaghir\u00F2_5>	rdf:type	dbo:Film ;
+	rdfs:label	"Fantaghir\u00F2 5"@en ;
+	dbo:director	dbr:Lamberto_Bava ;
+	dbo:releaseDate	"1996-11-23"^^xsd:date ;
+	dbo:starring	dbr:Brigitte_Nielsen ,
+		dbr:Ludwig_Briand .
+<http://dbpedia.org/resource/Female_(1933_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Female (1933 film)"@en ;
+	dbo:director	dbr:Michael_Curtiz ;
+	dbo:runtime	"3600.0"^^xsd:double ;
+	dbo:starring	dbr:George_Brent .
+dbr:Five_Minutes_of_Heaven	rdf:type	dbo:Film ;
+	rdfs:label	"Five Minutes of Heaven"@en ;
+	dbo:director	dbr:Oliver_Hirschbiegel ;
+	dbo:runtime	"5400.0"^^xsd:double ;
+	dbo:starring	dbr:Liam_Neeson .
+dbr:Flicka	rdf:type	dbo:Film ;
+	rdfs:label	"Flicka"@en ;
+	dbo:budget	"1.5E7"^^dbd:usDollar ;
+	dbo:director	<http://dbpedia.org/resource/Michael_Mayer_(director)> ;
+	dbo:runtime	"5700.0"^^xsd:double ;
+	dbo:starring	dbr:Alison_Lohman .
+dbr:Flightplan	rdf:type	dbo:Film ;
+	rdfs:label	"Flightplan"@en ;
+	dbo:budget	"5.5E7"^^dbd:usDollar ;
+	dbo:director	dbr:Robert_Schwentke ;
+	dbo:runtime	"5880.0"^^xsd:double ;
+	dbo:starring	dbr:Erika_Christensen ,
+		dbr:Sean_Bean .
+<http://dbpedia.org/resource/Flypaper_(2011_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Flypaper (2011 film)"@en ;
+	dbo:budget	"8000000.0"^^dbd:usDollar ;
+	dbo:director	dbr:Rob_Minkoff ;
+	dbo:runtime	"5280.0"^^xsd:double ;
+	dbo:starring	<http://dbpedia.org/resource/Matt_Ryan_(actor)> ,
+		dbr:Jeffrey_Tambor ,
+		dbr:Curtis_Armstrong ,
+		dbr:Mekhi_Phifer .
+<http://dbpedia.org/resource/Gun_Shy_(2000_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Gun Shy (2000 film)"@en ;
+	dbo:budget	"1.4E7"^^dbd:usDollar ;
+	dbo:director	dbr:Eric_Blakeney ;
+	dbo:runtime	"6060.0"^^xsd:double ;
+	dbo:starring	dbr:Liam_Neeson ,
+		dbr:Mary_McCormack .
+<http://dbpedia.org/resource/Heaven_Can_Wait_(1978_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Heaven Can Wait (1978 film)"@en ;
+	dbo:budget	"6000000.0"^^dbd:usDollar ;
+	dbo:director	dbr:Warren_Beatty ,
+		dbr:Buck_Henry ;
+	dbo:runtime	"6060.0"^^xsd:double ;
+	dbo:starring	dbr:Dyan_Cannon .
+@prefix ns6:	<http://dbpedia.org/resource/Herbie:> .
+ns6:_Fully_Loaded	rdf:type	dbo:Film ;
+	rdfs:label	"Herbie: Fully Loaded"@en ;
+	dbo:budget	"5.0E7"^^dbd:usDollar ;
+	dbo:director	<http://dbpedia.org/resource/Angela_Robinson_(filmmaker)> ;
+	dbo:runtime	"6060.0"^^xsd:double ;
+	dbo:starring	dbr:Justin_Long ,
+		dbr:Matt_Dillon .
+<http://dbpedia.org/resource/Hoodwinked!>	rdf:type	dbo:Film ;
+	rdfs:label	"Hoodwinked!"@en ;
+	dbo:budget	"8000000.0"^^dbd:usDollar ;
+	dbo:director	dbr:Cory_Edwards ;
+	dbo:runtime	"4800.0"^^xsd:double ;
+	dbo:starring	dbr:Anne_Hathaway ,
+		dbr:David_Ogden_Stiers .
+dbr:I_Am_Sam	rdf:type	dbo:Film ;
+	rdfs:label	"I Am Sam"@en ;
+	dbo:budget	"2.2E7"^^dbd:usDollar ;
+	dbo:director	dbr:Jessie_Nelson ;
+	dbo:releaseDate	"2002-01-25"^^xsd:date ;
+	dbo:runtime	"7920.0"^^xsd:double ;
+	dbo:starring	dbr:Dianne_Wiest ,
+		dbr:Dakota_Fanning .
+dbr:In_Case_of_Adversity	rdf:type	dbo:Film ;
+	rdfs:label	"In Case of Adversity"@en ;
+	dbo:budget	"900000.0"^^dbd:usDollar ;
+	dbo:director	dbr:Claude_Autant-Lara ;
+	dbo:runtime	"7320.0"^^xsd:double ;
+	dbo:starring	dbr:Brigitte_Bardot .
+dbr:In_the_Presence_of_a_Clown	rdf:type	dbo:Film ;
+	rdfs:label	"In the Presence of a Clown"@en ;
+	dbo:director	dbr:Ingmar_Bergman ;
+	dbo:runtime	"7140.0"^^xsd:double ;
+	dbo:starring	dbr:Marie_Richardson ,
+		<http://dbpedia.org/resource/B\u00F6rje_Ahlstedt> .
+<http://dbpedia.org/resource/Invincible_(2001_theatrical_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Invincible (2001 theatrical film)"@en ;
+	dbo:director	dbr:Werner_Herzog ;
+	dbo:runtime	"7980.0"^^xsd:double ;
+	dbo:starring	dbr:Anna_Gourari .
+dbr:Jalsaghar	rdf:type	dbo:Film ;
+	rdfs:label	"Jalsaghar"@en ;
+	dbo:director	dbr:Satyajit_Ray ;
+	dbo:runtime	"5700.0"^^xsd:double ;
+	dbo:starring	dbr:Chhabi_Biswas .
+<http://dbpedia.org/resource/Jump!_(2007_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Jump! (2007 film)"@en ;
+	dbo:director	dbr:Joshua_Sinclair ;
+	dbo:runtime	"7080.0"^^xsd:double ;
+	dbo:starring	dbr:Patrick_Swayze ,
+		dbr:Martine_McCutcheon .
+<http://dbpedia.org/resource/La_taverna_della_libert\u00E0>	rdf:type	dbo:Film ;
+	rdfs:label	"La taverna della libert\u00E0"@en ;
+	dbo:director	dbr:Maurice_Cam ;
+	dbo:starring	dbr:Umberto_Spadaro .
+<http://dbpedia.org/resource/Lassie_(1994_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Lassie (1994 film)"@en ;
+	dbo:director	dbr:Daniel_Petrie ;
+	dbo:runtime	"5640.0"^^xsd:double ;
+	dbo:starring	dbr:Helen_Slater ,
+		dbr:Frederic_Forrest ,
+		dbr:Tom_Guiry .
+<http://dbpedia.org/resource/Left_Luggage_(film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Left Luggage (film)"@en ;
+	dbo:director	<http://dbpedia.org/resource/Jeroen_Krabb\u00E9> ;
+	dbo:runtime	"6000.0"^^xsd:double ;
+	dbo:starring	<http://dbpedia.org/resource/Jeroen_Krabb\u00E9> .
+<http://dbpedia.org/resource/Local_Hero_(film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Local Hero (film)"@en ;
+	dbo:budget	"2600000.0"^^dbd:poundSterling ,
+		"3000000.0"^^dbd:poundSterling ;
+	dbo:director	dbr:Bill_Forsyth ;
+	dbo:runtime	"6660.0"^^xsd:double ;
+	dbo:starring	dbr:Fulton_Mackay .
+dbr:Love_from_Paris	rdf:type	dbo:Film ;
+	rdfs:label	"Love from Paris"@en ;
+	dbo:director	<http://dbpedia.org/resource/Helmut_K\u00E4utner> ;
+	dbo:runtime	"5760.0"^^xsd:double ;
+	dbo:starring	dbr:Horst_Buchholz .
+<http://dbpedia.org/resource/Loverboy_(2005_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Loverboy (2005 film)"@en ;
+	dbo:director	dbr:Kevin_Bacon ;
+	dbo:runtime	"5160.0"^^xsd:double ;
+	dbo:starring	dbr:Blair_Brown .
+dbr:Marx_Reloaded	rdf:type	dbo:Film ;
+	rdfs:label	"Marx Reloaded"@en ;
+	dbo:director	dbr:Jason_Barker ;
+	dbo:runtime	"3120.0"^^xsd:double ;
+	dbo:starring	dbr:Jason_Barker .
+<http://dbpedia.org/resource/Metropolis_(2001_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Metropolis (2001 film)"@en ;
+	dbo:budget	"1.5E9"^^dbd:japaneseYen ;
+	dbo:director	dbr:Rintaro ;
+	dbo:runtime	"6780.0"^^xsd:double ;
+	dbo:starring	dbr:Norihiro_Inoue ,
+		dbr:Toshio_Furukawa ,
+		<http://dbpedia.org/resource/K\u014Dsei_Tomita> ,
+		dbr:Masaru_Ikeda ,
+		dbr:Takeshi_Aono .
+dbr:Mickey_and_the_Seal	rdf:type	dbo:Film ;
+	rdfs:label	"Mickey and the Seal"@en ;
+	dbo:director	dbr:Charles_August_Nichols ;
+	dbo:runtime	"398.0"^^xsd:double ;
+	dbo:starring	dbr:Pinto_Colvig .
+dbr:Monsters_University	rdf:type	dbo:Film ;
+	rdfs:label	"Monsters University"@en ;
+	dbo:budget	"2.0E8"^^dbd:usDollar ;
+	dbo:director	dbr:Dan_Scanlon ;
+	dbo:runtime	"6240.0"^^xsd:double ;
+	dbo:starring	dbr:John_Goodman ,
+		dbr:Joel_Murray .
+<http://dbpedia.org/resource/Oblivion_(2013_film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Oblivion (2013 film)"@en ;
+	dbo:budget	"1.2E8"^^dbd:usDollar ;
+	dbo:director	dbr:Joseph_Kosinski ;
+	dbo:runtime	"7440.0"^^xsd:double ;
+	dbo:starring	dbr:Morgan_Freeman ,
+		dbr:Olga_Kurylenko .
+<http://dbpedia.org/resource/Ocean\u0027s_Thirteen>	rdf:type	dbo:Film ;
+	rdfs:label	"Ocean's Thirteen"@en ;
+	dbo:budget	"8.5E7"^^dbd:usDollar ;
+	dbo:director	dbr:Steven_Soderbergh ;
+	dbo:runtime	"7320.0"^^xsd:double ;
+	dbo:starring	dbr:Eddie_Jemison ,
+		dbr:Don_Cheadle ,
+		dbr:Matt_Damon ,
+		dbr:Brad_Pitt .
+<http://dbpedia.org/resource/Paint_Your_Wagon_(film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Paint Your Wagon (film)"@en ;
+	dbo:budget	"2.0E7"^^dbd:usDollar ;
+	dbo:director	dbr:Joshua_Logan ;
+	dbo:runtime	"9240.0"^^xsd:double ;
+	dbo:starring	dbr:Ray_Walston .
+dbr:Parash_Pathar	rdf:type	dbo:Film ;
+	rdfs:label	"Parash Pathar"@en ;
+	dbo:director	dbr:Satyajit_Ray ;
+	dbo:runtime	"6660.0"^^xsd:double ;
+	dbo:starring	dbr:Chhabi_Biswas .
+dbr:Paris_36	rdf:type	dbo:Film ;
+	rdfs:label	"Paris 36"@en ;
+	dbo:budget	"3.1E7"^^dbd:usDollar ;
+	dbo:director	dbr:Christophe_Barratier ;
+	dbo:runtime	"7200.0"^^xsd:double ;
+	dbo:starring	dbr:Kad_Merad ,
+		<http://dbpedia.org/resource/G\u00E9rard_Jugnot> .
+dbr:Paris_Blues	rdf:type	dbo:Film ;
+	rdfs:label	"Paris Blues"@en ;
+	dbo:director	dbr:Martin_Ritt ;
+	dbo:runtime	"5880.0"^^xsd:double ;
+	dbo:starring	dbr:Diahann_Carroll ,
+		dbr:Serge_Reggiani .
+dbr:Pretty_Persuasion	rdf:type	dbo:Film ;
+	rdfs:label	"Pretty Persuasion"@en ;
+	dbo:budget	"2500000.0"^^dbd:usDollar ;
+	dbo:director	dbr:Marcos_Siega ;
+	dbo:runtime	"6540.0"^^xsd:double ;
+	dbo:starring	dbr:Elisabeth_Harnois .
+<http://dbpedia.org/resource/Queens_(film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Queens (film)"@en ;
+	dbo:director	<http://dbpedia.org/resource/Manuel_G\u00F3mez_Pereira> ;
+	dbo:runtime	"6420.0"^^xsd:double ;
+	dbo:starring	dbr:Carmen_Maura ,
+		dbr:Marisa_Paredes .
+<http://dbpedia.org/resource/Repossessed_(film)>	rdf:type	dbo:Film ;
+	rdfs:label	"Repossessed (film)"@en ;
+	dbo:director	<http://dbpedia.org/resource/Bob_Logan_(film_director)> ;
+	dbo:runtime	"4800.0"^^xsd:double ;
+	dbo:starring	dbr:Ned_Beatty .
+dbr:Daniel_Petrie	rdfs:label	"Daniel Petrie"@en .
+dbr:Walerian_Borowczyk	rdfs:label	"Walerian Borowczyk"@en .
+dbr:Bill_Forsyth	rdfs:label	"Bill Forsyth"@en .
+dbr:Chhabi_Biswas	rdfs:label	"Chhabi Biswas"@en .
+dbr:Jason_Barker	rdfs:label	"Jason Barker"@en .
+dbr:Curtis_Armstrong	rdfs:label	"Curtis Armstrong"@en .
+<http://dbpedia.org/resource/Michael_Mayer_(director)>	rdfs:label	"Michael Mayer (director)"@en .
+dbr:Brigitte_Nielsen	rdfs:label	"Brigitte Nielsen"@en .
+dbr:Carmen_Maura	rdfs:label	"Carmen Maura"@en .
+dbr:Diahann_Carroll	rdfs:label	"Diahann Carroll"@en .
+dbr:Dyan_Cannon	rdfs:label	"Dyan Cannon"@en .
+dbr:Elisabeth_Harnois	rdfs:label	"Elisabeth Harnois"@en .
+dbr:Erika_Christensen	rdfs:label	"Erika Christensen"@en .
+dbr:Kathy_Najimy	rdfs:label	"Kathy Najimy"@en .
+dbr:Marisa_Paredes	rdfs:label	"Marisa Paredes"@en .
+dbr:Wanda_Sykes	rdfs:label	"Wanda Sykes"@en .
+dbr:Caroline_Munro	rdfs:label	"Caroline Munro"@en .
+dbr:Don_Cheadle	rdfs:label	"Don Cheadle"@en .
+dbr:Joe_Mantegna	rdfs:label	"Joe Mantegna"@en .
+dbr:Monique_Gabrielle	rdfs:label	"Monique Gabrielle"@en .
+dbr:Horst_Buchholz	rdfs:label	"Horst Buchholz"@en .
+<http://dbpedia.org/resource/Jeroen_Krabb\u00E9>	rdfs:label	"Jeroen Krabb\u00E9"@en .
+<http://dbpedia.org/resource/J\u00FCrgen_Prochnow>	rdfs:label	"J\u00FCrgen Prochnow"@en .
+dbr:Liam_Neeson	rdfs:label	"Liam Neeson"@en .
+dbr:Oliver_Hirschbiegel	rdfs:label	"Oliver Hirschbiegel"@en .
+dbr:Anna_Gourari	rdfs:label	"Anna Gourari"@en .
+dbr:Matt_Damon	rdfs:label	"Matt Damon"@en .
+<http://dbpedia.org/resource/Angela_Robinson_(filmmaker)>	rdfs:label	"Angela Robinson (filmmaker)"@en .
+dbr:Serge_Reggiani	rdfs:label	"Serge Reggiani"@en .
+dbr:Dianne_Wiest	rdfs:label	"Dianne Wiest"@en .
+dbr:John_Goodman	rdfs:label	"John Goodman"@en .
+dbr:Steve_Carell	rdfs:label	"Steve Carell"@en .
+dbr:Kenneth_Griffith	rdfs:label	"Kenneth Griffith"@en .
+dbr:Ray_Walston	rdfs:label	"Ray Walston"@en .
+dbr:John_Patrick_Shanley	rdfs:label	"John Patrick Shanley"@en .
+dbr:Frederic_Forrest	rdfs:label	"Frederic Forrest"@en .
+dbr:Pinto_Colvig	rdfs:label	"Pinto Colvig"@en .
+dbr:Giuseppe_Campora	rdfs:label	"Giuseppe Campora"@en .
+dbr:Tucker_McGuire	rdfs:label	"Tucker McGuire"@en .
+dbr:Soumitra_Chatterjee	rdfs:label	"Soumitra Chatterjee"@en .
+dbr:George_Brent	rdfs:label	"George Brent"@en .
+dbr:Joel_Murray	rdfs:label	"Joel Murray"@en .
+dbr:Tom_Guiry	rdfs:label	"Tom Guiry"@en .
+dbr:Shahab_Hosseini	rdfs:label	"Shahab Hosseini"@en .
+dbr:Eddie_Jemison	rdfs:label	"Eddie Jemison"@en .
+dbr:Alison_Lohman	rdfs:label	"Alison Lohman"@en .
+dbr:James_Coburn	rdfs:label	"James Coburn"@en .
+dbr:Miranda_Cosgrove	rdfs:label	"Miranda Cosgrove"@en .
+dbr:Ned_Beatty	rdfs:label	"Ned Beatty"@en .
+dbr:Blair_Brown	rdfs:label	"Blair Brown"@en .
+dbr:Bud_Spencer	rdfs:label	"Bud Spencer"@en .
+dbr:Helen_Slater	rdfs:label	"Helen Slater"@en .
+dbr:Martine_McCutcheon	rdfs:label	"Martine McCutcheon"@en .
+dbr:Mary_McCormack	rdfs:label	"Mary McCormack"@en .
+dbr:Morgan_Freeman	rdfs:label	"Morgan Freeman"@en .
+dbr:Patrick_Swayze	rdfs:label	"Patrick Swayze"@en .
+dbr:Vincente_Minnelli	rdfs:label	"Vincente Minnelli"@en .
+dbr:Christophe_Barratier	rdfs:label	"Christophe Barratier"@en .
+dbr:Albert_Sharpe	rdfs:label	"Albert Sharpe"@en .
+<http://dbpedia.org/resource/B\u00F6rje_Ahlstedt>	rdfs:label	"B\u00F6rje Ahlstedt"@en .
+<http://dbpedia.org/resource/G\u00E9rard_Jugnot>	rdfs:label	"G\u00E9rard Jugnot"@en .
+<http://dbpedia.org/resource/Joe_E._Brown>	rdfs:label	"Joe E. Brown"@en .
+dbr:Ludwig_Briand	rdfs:label	"Ludwig Briand"@en .
+dbr:Kad_Merad	rdfs:label	"Kad Merad"@en .
+dbr:Umberto_Spadaro	rdfs:label	"Umberto Spadaro"@en .
+dbr:Charles_August_Nichols	rdfs:label	"Charles August Nichols"@en .
+<http://dbpedia.org/resource/Barry_Jones_(actor)>	rdfs:label	"Barry Jones (actor)"@en .
+dbr:Payman_Maadi	rdfs:label	"Payman Maadi"@en .
+dbr:Anne_Hathaway	rdfs:label	"Anne Hathaway"@en .
+dbr:Brad_Pitt	rdfs:label	"Brad Pitt"@en .
+dbr:Brigitte_Bardot	rdfs:label	"Brigitte Bardot"@en .
+dbr:Marlon_Brando	rdfs:label	"Marlon Brando"@en .
+dbr:Mekhi_Phifer	rdfs:label	"Mekhi Phifer"@en .
+dbr:Marie_Richardson	rdfs:label	"Marie Richardson"@en .
+dbr:Olga_Kurylenko	rdfs:label	"Olga Kurylenko"@en .
+dbr:Jessie_Nelson	rdfs:label	"Jessie Nelson"@en .
+dbr:Masaru_Ikeda	rdfs:label	"Masaru Ikeda"@en .
+dbr:Sadashiv_Amrapurkar	rdfs:label	"Sadashiv Amrapurkar"@en .
+dbr:Justin_Long	rdfs:label	"Justin Long"@en .
+dbr:Russell_Brand	rdfs:label	"Russell Brand"@en .
+dbr:Dylan_Walsh	rdfs:label	"Dylan Walsh"@en .
+dbr:Jeffrey_Tambor	rdfs:label	"Jeffrey Tambor"@en .
+dbr:Steve_Coogan	rdfs:label	"Steve Coogan"@en .
+dbr:Dakota_Fanning	rdfs:label	"Dakota Fanning"@en .
+dbr:David_Ogden_Stiers	rdfs:label	"David Ogden Stiers"@en .
+<http://dbpedia.org/resource/Matt_Ryan_(actor)>	rdfs:label	"Matt Ryan (actor)"@en .
+dbr:Toshio_Furukawa	rdfs:label	"Toshio Furukawa"@en .
+dbr:Ray_Enright	rdfs:label	"Ray Enright"@en .
+<http://dbpedia.org/resource/Manuel_G\u00F3mez_Pereira>	rdfs:label	"Manuel G\u00F3mez Pereira"@en .
+<http://dbpedia.org/resource/K\u014Dsei_Tomita>	rdfs:label	"K\u014Dsei Tomita"@en .
+dbr:Merila_Zarei	rdfs:label	"Merila Zarei"@en .
+dbr:Fulton_Mackay	rdfs:label	"Fulton Mackay"@en .
+dbr:Patrick_Read_Johnson	rdfs:label	"Patrick Read Johnson"@en .
+dbr:Norihiro_Inoue	rdfs:label	"Norihiro Inoue"@en .
+dbr:Janet_Suzman	rdfs:label	"Janet Suzman"@en .
+dbr:Benjamin_Bratt	rdfs:label	"Benjamin Bratt"@en .
+dbr:Gene_Kelly	rdfs:label	"Gene Kelly"@en .
+dbr:Lee_Marvin	rdfs:label	"Lee Marvin"@en .
+dbr:Asghar_Farhadi	rdfs:label	"Asghar Farhadi"@en .
+dbr:Amrish_Puri	rdfs:label	"Amrish Puri"@en .
+dbr:Donald_Sutherland	rdfs:label	"Donald Sutherland"@en .
+dbr:Amy_Adams	rdfs:label	"Amy Adams"@en .
+dbr:Lara_Flynn_Boyle	rdfs:label	"Lara Flynn Boyle"@en .
+dbr:Zakes_Mokae	rdfs:label	"Zakes Mokae"@en .
+dbr:Rob_Minkoff	rdfs:label	"Rob Minkoff"@en .
+dbr:Eric_Blakeney	rdfs:label	"Eric Blakeney"@en .
+dbr:Meryl_Streep	rdfs:label	"Meryl Streep"@en .
+dbr:Takeshi_Aono	rdfs:label	"Takeshi Aono"@en .
+dbr:Jack_Palance	rdfs:label	"Jack Palance"@en .
+dbr:Matt_Dillon	rdfs:label	"Matt Dillon"@en .
+dbr:Sean_Bean	rdfs:label	"Sean Bean"@en .
+dbr:Joseph_Kosinski	rdfs:label	"Joseph Kosinski"@en .
+<http://dbpedia.org/resource/Bob_Logan_(film_director)>	rdfs:label	"Bob Logan (film director)"@en .
+dbr:Edmund_Purdom	rdfs:label	"Edmund Purdom"@en .
+dbr:Cory_Edwards	rdfs:label	"Cory Edwards"@en .
+dbr:Ingmar_Bergman	rdfs:label	"Ingmar Bergman"@en .
+dbr:Claude_Autant-Lara	rdfs:label	"Claude Autant-Lara"@en .
+<http://dbpedia.org/resource/George_P._Cosmatos>	rdfs:label	"George P. Cosmatos"@en .
+dbr:Joshua_Logan	rdfs:label	"Joshua Logan"@en .
+dbr:Clemente_Fracassi	rdfs:label	"Clemente Fracassi"@en .
+dbr:Buck_Henry	rdfs:label	"Buck Henry"@en .
+dbr:Robert_Aldrich	rdfs:label	"Robert Aldrich"@en .
+dbr:Warren_Beatty	rdfs:label	"Warren Beatty"@en .
+dbr:Marcos_Siega	rdfs:label	"Marcos Siega"@en .
+dbr:Benjamin_Gluck	rdfs:label	"Benjamin Gluck"@en .
+dbr:Joshua_Sinclair	rdfs:label	"Joshua Sinclair"@en .
+dbr:Lamberto_Bava	rdfs:label	"Lamberto Bava"@en .
+dbr:Maurice_Cam	rdfs:label	"Maurice Cam"@en .
+dbr:Michael_Curtiz	rdfs:label	"Michael Curtiz"@en .
+dbr:Peter_Masterson	rdfs:label	"Peter Masterson"@en .
+dbr:Rintaro	rdfs:label	"Rintaro"@en .
+dbr:Roy_Ward_Baker	rdfs:label	"Roy Ward Baker"@en .
+dbr:Satyajit_Ray	rdfs:label	"Satyajit Ray"@en .
+dbr:Steven_Soderbergh	rdfs:label	"Steven Soderbergh"@en .
+dbr:Werner_Herzog	rdfs:label	"Werner Herzog"@en .
+dbr:Govind_Nihalani	rdfs:label	"Govind Nihalani"@en .
+dbr:Dan_Scanlon	rdfs:label	"Dan Scanlon"@en .
+<http://dbpedia.org/resource/Helmut_K\u00E4utner>	rdfs:label	"Helmut K\u00E4utner"@en .
+dbr:Robert_Schwentke	rdfs:label	"Robert Schwentke"@en .
+dbr:Chris_Renaud	rdfs:label	"Chris Renaud"@en .
+dbr:Euzhan_Palcy	rdfs:label	"Euzhan Palcy"@en .
+dbr:Tonino_Valerii	rdfs:label	"Tonino Valerii"@en .
+dbr:Kevin_Bacon	rdfs:label	"Kevin Bacon"@en .
+dbr:Martin_Ritt	rdfs:label	"Martin Ritt"@en .

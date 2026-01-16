@@ -1,0 +1,140 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix ex: <http://example.org/valid/> .
+
+
+# SYNTHETIC DATASET: VALID DATA (No Violations, No Warnings)
+# All movies have complete metadata including person types.
+
+
+# 1. The Shawshank Redemption
+ex:ShawshankRedemption a dbo:Film ;
+    rdfs:label "The Shawshank Redemption"@en ;
+    dbo:director ex:FrankDarabont ;
+    dbo:runtime "8520.0"^^xsd:double ; # 142 min
+    dbo:releaseDate "1994-09-22"^^xsd:date ;
+    dbo:budget "25000000.0"^^xsd:double ;
+    dbo:genre ex:Drama ;
+    dbo:starring ex:TimRobbins, ex:MorganFreeman .
+
+# 2. The Godfather
+ex:TheGodfather a dbo:Film ;
+    rdfs:label "The Godfather"@en ;
+    dbo:director ex:FrancisFordCoppola ;
+    dbo:runtime "10500.0"^^xsd:double ; # 175 min
+    dbo:releaseDate "1972-03-24"^^xsd:date ;
+    dbo:budget "6000000.0"^^xsd:double ;
+    dbo:genre ex:Crime, ex:Drama ;
+    dbo:starring ex:MarlonBrando, ex:AlPacino .
+
+# 3. The Dark Knight
+ex:TheDarkKnight a dbo:Film ;
+    rdfs:label "The Dark Knight"@en ;
+    dbo:director ex:ChristopherNolan ;
+    dbo:runtime "9120.0"^^xsd:double ; # 152 min
+    dbo:releaseDate "2008-07-18"^^xsd:date ;
+    dbo:budget "185000000.0"^^xsd:double ;
+    dbo:genre ex:Action, ex:Thriller ;
+    dbo:starring ex:ChristianBale, ex:HeathLedger .
+
+# 4. Pulp Fiction
+ex:PulpFiction a dbo:Film ;
+    rdfs:label "Pulp Fiction"@en ;
+    dbo:director ex:QuentinTarantino ;
+    dbo:runtime "9240.0"^^xsd:double ; # 154 min
+    dbo:releaseDate "1994-10-14"^^xsd:date ;
+    dbo:budget "8000000.0"^^xsd:double ;
+    dbo:genre ex:Crime, ex:Drama ;
+    dbo:starring ex:JohnTravolta, ex:SamuelLJackson .
+
+# 5. Forrest Gump
+ex:ForrestGump a dbo:Film ;
+    rdfs:label "Forrest Gump"@en ;
+    dbo:director ex:RobertZemeckis ;
+    dbo:runtime "8520.0"^^xsd:double ; # 142 min
+    dbo:releaseDate "1994-07-06"^^xsd:date ;
+    dbo:budget "55000000.0"^^xsd:double ;
+    dbo:genre ex:Drama, ex:Romance ;
+    dbo:starring ex:TomHanks, ex:RobinWright .
+
+# 6. Inception
+ex:Inception a dbo:Film ;
+    rdfs:label "Inception"@en ;
+    dbo:director ex:ChristopherNolan ;
+    dbo:runtime "8880.0"^^xsd:double ; # 148 min
+    dbo:releaseDate "2010-07-16"^^xsd:date ;
+    dbo:budget "160000000.0"^^xsd:double ;
+    dbo:genre ex:SciFi, ex:Action ;
+    dbo:starring ex:LeonardoDiCaprio, ex:JosephGordonLevitt .
+
+# 7. Fight Club
+ex:FightClub a dbo:Film ;
+    rdfs:label "Fight Club"@en ;
+    dbo:director ex:DavidFincher ;
+    dbo:runtime "8340.0"^^xsd:double ; # 139 min
+    dbo:releaseDate "1999-10-15"^^xsd:date ;
+    dbo:budget "63000000.0"^^xsd:double ;
+    dbo:genre ex:Drama ;
+    dbo:starring ex:BradPitt, ex:EdwardNorton .
+
+# 8. The Matrix
+ex:TheMatrix a dbo:Film ;
+    rdfs:label "The Matrix"@en ;
+    dbo:director ex:LanaWachowski ;
+    dbo:runtime "8160.0"^^xsd:double ; # 136 min
+    dbo:releaseDate "1999-03-31"^^xsd:date ;
+    dbo:budget "63000000.0"^^xsd:double ;
+    dbo:genre ex:SciFi, ex:Action ;
+    dbo:starring ex:KeanuReeves, ex:LaurenceFishburne .
+
+# 9. Goodfellas
+ex:Goodfellas a dbo:Film ;
+    rdfs:label "Goodfellas"@en ;
+    dbo:director ex:MartinScorsese ;
+    dbo:runtime "8760.0"^^xsd:double ; # 146 min
+    dbo:releaseDate "1990-09-19"^^xsd:date ;
+    dbo:budget "25000000.0"^^xsd:double ;
+    dbo:genre ex:Biography, ex:Crime ;
+    dbo:starring ex:RobertDeNiro, ex:RayLiotta .
+
+# 10. The Empire Strikes Back
+ex:EmpireStrikesBack a dbo:Film ;
+    rdfs:label "The Empire Strikes Back"@en ;
+    dbo:director ex:IrvinKershner ;
+    dbo:runtime "7440.0"^^xsd:double ; # 124 min
+    dbo:releaseDate "1980-05-21"^^xsd:date ;
+    dbo:budget "18000000.0"^^xsd:double ;
+    dbo:genre ex:SciFi, ex:Adventure ;
+    dbo:starring ex:MarkHamill, ex:HarrisonFord .
+
+ex:FrankDarabont a dbo:Person .
+ex:TimRobbins a dbo:Person .
+ex:MorganFreeman a dbo:Person .
+ex:FrancisFordCoppola a dbo:Person .
+ex:MarlonBrando a dbo:Person .
+ex:AlPacino a dbo:Person .
+ex:ChristopherNolan a dbo:Person .
+ex:ChristianBale a dbo:Person .
+ex:HeathLedger a dbo:Person .
+ex:QuentinTarantino a dbo:Person .
+ex:JohnTravolta a dbo:Person .
+ex:SamuelLJackson a dbo:Person .
+ex:RobertZemeckis a dbo:Person .
+ex:TomHanks a dbo:Person .
+ex:RobinWright a dbo:Person .
+ex:LeonardoDiCaprio a dbo:Person .
+ex:JosephGordonLevitt a dbo:Person .
+ex:DavidFincher a dbo:Person .
+ex:BradPitt a dbo:Person .
+ex:EdwardNorton a dbo:Person .
+ex:LanaWachowski a dbo:Person .
+ex:KeanuReeves a dbo:Person .
+ex:LaurenceFishburne a dbo:Person .
+ex:MartinScorsese a dbo:Person .
+ex:RobertDeNiro a dbo:Person .
+ex:RayLiotta a dbo:Person .
+ex:IrvinKershner a dbo:Person .
+ex:MarkHamill a dbo:Person .
+ex:HarrisonFord a dbo:Person .

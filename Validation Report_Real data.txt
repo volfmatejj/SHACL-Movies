@@ -1,0 +1,2249 @@
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Dry_White_Season> ;
+	sh:value <http://dbpedia.org/resource/Euzhan_Palcy> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Dry_White_Season> ;
+	sh:value <http://dbpedia.org/resource/J\u00FCrgen_Prochnow> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Dry_White_Season> ;
+	sh:value <http://dbpedia.org/resource/Zakes_Mokae> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Dry_White_Season> ;
+	sh:value <http://dbpedia.org/resource/Donald_Sutherland> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Dry_White_Season> ;
+	sh:value <http://dbpedia.org/resource/Marlon_Brando> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Dry_White_Season> ;
+	sh:value <http://dbpedia.org/resource/Janet_Suzman> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Dry_White_Season> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Night_to_Remember_(1958_film)> ;
+	sh:value <http://dbpedia.org/resource/Roy_Ward_Baker> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Night_to_Remember_(1958_film)> ;
+	sh:value <http://dbpedia.org/resource/Kenneth_Griffith> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Night_to_Remember_(1958_film)> ;
+	sh:value <http://dbpedia.org/resource/Tucker_McGuire> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Night_to_Remember_(1958_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Reason_to_Live,_a_Reason_to_Die> ;
+	sh:value <http://dbpedia.org/resource/Tonino_Valerii> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Reason_to_Live,_a_Reason_to_Die> ;
+	sh:value <http://dbpedia.org/resource/Bud_Spencer> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Reason_to_Live,_a_Reason_to_Die> ;
+	sh:value <http://dbpedia.org/resource/James_Coburn> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Reason_to_Live,_a_Reason_to_Die> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Reason_to_Live,_a_Reason_to_Die> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Separation> ;
+	sh:value <http://dbpedia.org/resource/Asghar_Farhadi> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Separation> ;
+	sh:value <http://dbpedia.org/resource/Shahab_Hosseini> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Separation> ;
+	sh:value <http://dbpedia.org/resource/Payman_Maadi> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Separation> ;
+	sh:value <http://dbpedia.org/resource/Merila_Zarei> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/A_Separation> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Aida_(1953_film)> ;
+	sh:value <http://dbpedia.org/resource/Clemente_Fracassi> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Aida_(1953_film)> ;
+	sh:value <http://dbpedia.org/resource/Giuseppe_Campora> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Aida_(1953_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Aida_(1953_film)> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Alibi_Ike> ;
+	sh:value <http://dbpedia.org/resource/Ray_Enright> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Alibi_Ike> ;
+	sh:value <http://dbpedia.org/resource/Joe_E._Brown> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Alibi_Ike> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Alibi_Ike> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Arctic_Blue> ;
+	sh:value <http://dbpedia.org/resource/Peter_Masterson> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Arctic_Blue> ;
+	sh:value <http://dbpedia.org/resource/Dylan_Walsh> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Arctic_Blue> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Ardh_Satya> ;
+	sh:value <http://dbpedia.org/resource/Govind_Nihalani> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Ardh_Satya> ;
+	sh:value <http://dbpedia.org/resource/Amrish_Puri> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Ardh_Satya> ;
+	sh:value <http://dbpedia.org/resource/Sadashiv_Amrapurkar> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Ardh_Satya> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Attack_(1956_film)> ;
+	sh:value <http://dbpedia.org/resource/Robert_Aldrich> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Attack_(1956_film)> ;
+	sh:value <http://dbpedia.org/resource/Lee_Marvin> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Attack_(1956_film)> ;
+	sh:value <http://dbpedia.org/resource/Jack_Palance> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Attack_(1956_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Baby\u0027s_Day_Out> ;
+	sh:value <http://dbpedia.org/resource/Patrick_Read_Johnson> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Baby\u0027s_Day_Out> ;
+	sh:value <http://dbpedia.org/resource/Lara_Flynn_Boyle> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Baby\u0027s_Day_Out> ;
+	sh:value <http://dbpedia.org/resource/Joe_Mantegna> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Baby\u0027s_Day_Out> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Brigadoon_(film)> ;
+	sh:value <http://dbpedia.org/resource/Vincente_Minnelli> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Brigadoon_(film)> ;
+	sh:value <http://dbpedia.org/resource/Albert_Sharpe> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Brigadoon_(film)> ;
+	sh:value <http://dbpedia.org/resource/Barry_Jones_(actor)> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Brigadoon_(film)> ;
+	sh:value <http://dbpedia.org/resource/Gene_Kelly> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Brigadoon_(film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Brother_Bear_2> ;
+	sh:value <http://dbpedia.org/resource/Benjamin_Gluck> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Brother_Bear_2> ;
+	sh:value <http://dbpedia.org/resource/Kathy_Najimy> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Brother_Bear_2> ;
+	sh:value <http://dbpedia.org/resource/Wanda_Sykes> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Brother_Bear_2> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Brother_Bear_2> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Cobra_(1986_film)> ;
+	sh:value <http://dbpedia.org/resource/George_P._Cosmatos> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Cobra_(1986_film)> ;
+	sh:value <http://dbpedia.org/resource/Brigitte_Nielsen> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Cobra_(1986_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Despicable_Me_2> ;
+	sh:value <http://dbpedia.org/resource/Chris_Renaud> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Despicable_Me_2> ;
+	sh:value <http://dbpedia.org/resource/Steve_Carell> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Despicable_Me_2> ;
+	sh:value <http://dbpedia.org/resource/Miranda_Cosgrove> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Despicable_Me_2> ;
+	sh:value <http://dbpedia.org/resource/Steve_Coogan> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Despicable_Me_2> ;
+	sh:value <http://dbpedia.org/resource/Benjamin_Bratt> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Despicable_Me_2> ;
+	sh:value <http://dbpedia.org/resource/Russell_Brand> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Despicable_Me_2> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Devi_(1960_film)> ;
+	sh:value <http://dbpedia.org/resource/Satyajit_Ray> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Devi_(1960_film)> ;
+	sh:value <http://dbpedia.org/resource/Soumitra_Chatterjee> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Devi_(1960_film)> ;
+	sh:value <http://dbpedia.org/resource/Chhabi_Biswas> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Devi_(1960_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Devi_(1960_film)> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Don\u0027t_Open_till_Christmas> ;
+	sh:value <http://dbpedia.org/resource/Edmund_Purdom> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Don\u0027t_Open_till_Christmas> ;
+	sh:value <http://dbpedia.org/resource/Caroline_Munro> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Don\u0027t_Open_till_Christmas> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Don\u0027t_Open_till_Christmas> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Doubt_(2008_film)> ;
+	sh:value <http://dbpedia.org/resource/John_Patrick_Shanley> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Doubt_(2008_film)> ;
+	sh:value <http://dbpedia.org/resource/Amy_Adams> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Doubt_(2008_film)> ;
+	sh:value <http://dbpedia.org/resource/Meryl_Streep> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Doubt_(2008_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Emmanuelle_5> ;
+	sh:value <http://dbpedia.org/resource/Walerian_Borowczyk> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Emmanuelle_5> ;
+	sh:value <http://dbpedia.org/resource/Monique_Gabrielle> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Emmanuelle_5> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Emmanuelle_5> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n536 ;
+	sh:focusNode <http://dbpedia.org/resource/Fantaghir\u00F2_5> ;
+	sh:resultPath dbo:runtime ;
+	sh:resultMessage "A film must have dbo:runtime; it must be numeric and between 60 and 18000 seconds (1 min .. 5 hours)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Fantaghir\u00F2_5> ;
+	sh:value <http://dbpedia.org/resource/Lamberto_Bava> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Fantaghir\u00F2_5> ;
+	sh:value <http://dbpedia.org/resource/Brigitte_Nielsen> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Fantaghir\u00F2_5> ;
+	sh:value <http://dbpedia.org/resource/Ludwig_Briand> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Fantaghir\u00F2_5> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Fantaghir\u00F2_5> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Female_(1933_film)> ;
+	sh:value <http://dbpedia.org/resource/Michael_Curtiz> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Female_(1933_film)> ;
+	sh:value <http://dbpedia.org/resource/George_Brent> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Female_(1933_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Female_(1933_film)> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Five_Minutes_of_Heaven> ;
+	sh:value <http://dbpedia.org/resource/Oliver_Hirschbiegel> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Five_Minutes_of_Heaven> ;
+	sh:value <http://dbpedia.org/resource/Liam_Neeson> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Five_Minutes_of_Heaven> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Five_Minutes_of_Heaven> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Flicka> ;
+	sh:value <http://dbpedia.org/resource/Michael_Mayer_(director)> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Flicka> ;
+	sh:value <http://dbpedia.org/resource/Alison_Lohman> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Flicka> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Flightplan> ;
+	sh:value <http://dbpedia.org/resource/Robert_Schwentke> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Flightplan> ;
+	sh:value <http://dbpedia.org/resource/Erika_Christensen> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Flightplan> ;
+	sh:value <http://dbpedia.org/resource/Sean_Bean> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Flightplan> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Flypaper_(2011_film)> ;
+	sh:value <http://dbpedia.org/resource/Rob_Minkoff> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Flypaper_(2011_film)> ;
+	sh:value <http://dbpedia.org/resource/Matt_Ryan_(actor)> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Flypaper_(2011_film)> ;
+	sh:value <http://dbpedia.org/resource/Jeffrey_Tambor> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Flypaper_(2011_film)> ;
+	sh:value <http://dbpedia.org/resource/Curtis_Armstrong> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Flypaper_(2011_film)> ;
+	sh:value <http://dbpedia.org/resource/Mekhi_Phifer> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Flypaper_(2011_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Gun_Shy_(2000_film)> ;
+	sh:value <http://dbpedia.org/resource/Eric_Blakeney> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Gun_Shy_(2000_film)> ;
+	sh:value <http://dbpedia.org/resource/Liam_Neeson> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Gun_Shy_(2000_film)> ;
+	sh:value <http://dbpedia.org/resource/Mary_McCormack> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Gun_Shy_(2000_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Heaven_Can_Wait_(1978_film)> ;
+	sh:value <http://dbpedia.org/resource/Warren_Beatty> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Heaven_Can_Wait_(1978_film)> ;
+	sh:value <http://dbpedia.org/resource/Buck_Henry> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Heaven_Can_Wait_(1978_film)> ;
+	sh:value <http://dbpedia.org/resource/Dyan_Cannon> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Heaven_Can_Wait_(1978_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Herbie:_Fully_Loaded> ;
+	sh:value <http://dbpedia.org/resource/Angela_Robinson_(filmmaker)> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Herbie:_Fully_Loaded> ;
+	sh:value <http://dbpedia.org/resource/Justin_Long> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Herbie:_Fully_Loaded> ;
+	sh:value <http://dbpedia.org/resource/Matt_Dillon> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Herbie:_Fully_Loaded> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Hoodwinked!> ;
+	sh:value <http://dbpedia.org/resource/Cory_Edwards> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Hoodwinked!> ;
+	sh:value <http://dbpedia.org/resource/Anne_Hathaway> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Hoodwinked!> ;
+	sh:value <http://dbpedia.org/resource/David_Ogden_Stiers> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Hoodwinked!> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/I_Am_Sam> ;
+	sh:value <http://dbpedia.org/resource/Jessie_Nelson> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/I_Am_Sam> ;
+	sh:value <http://dbpedia.org/resource/Dianne_Wiest> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/I_Am_Sam> ;
+	sh:value <http://dbpedia.org/resource/Dakota_Fanning> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/I_Am_Sam> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/In_Case_of_Adversity> ;
+	sh:value <http://dbpedia.org/resource/Claude_Autant-Lara> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/In_Case_of_Adversity> ;
+	sh:value <http://dbpedia.org/resource/Brigitte_Bardot> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/In_Case_of_Adversity> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/In_the_Presence_of_a_Clown> ;
+	sh:value <http://dbpedia.org/resource/Ingmar_Bergman> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/In_the_Presence_of_a_Clown> ;
+	sh:value <http://dbpedia.org/resource/Marie_Richardson> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/In_the_Presence_of_a_Clown> ;
+	sh:value <http://dbpedia.org/resource/B\u00F6rje_Ahlstedt> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/In_the_Presence_of_a_Clown> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/In_the_Presence_of_a_Clown> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Invincible_(2001_theatrical_film)> ;
+	sh:value <http://dbpedia.org/resource/Werner_Herzog> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Invincible_(2001_theatrical_film)> ;
+	sh:value <http://dbpedia.org/resource/Anna_Gourari> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Invincible_(2001_theatrical_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Invincible_(2001_theatrical_film)> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Jalsaghar> ;
+	sh:value <http://dbpedia.org/resource/Satyajit_Ray> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Jalsaghar> ;
+	sh:value <http://dbpedia.org/resource/Chhabi_Biswas> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Jalsaghar> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Jalsaghar> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Jump!_(2007_film)> ;
+	sh:value <http://dbpedia.org/resource/Joshua_Sinclair> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Jump!_(2007_film)> ;
+	sh:value <http://dbpedia.org/resource/Patrick_Swayze> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Jump!_(2007_film)> ;
+	sh:value <http://dbpedia.org/resource/Martine_McCutcheon> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Jump!_(2007_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Jump!_(2007_film)> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n536 ;
+	sh:focusNode <http://dbpedia.org/resource/La_taverna_della_libert\u00E0> ;
+	sh:resultPath dbo:runtime ;
+	sh:resultMessage "A film must have dbo:runtime; it must be numeric and between 60 and 18000 seconds (1 min .. 5 hours)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/La_taverna_della_libert\u00E0> ;
+	sh:value <http://dbpedia.org/resource/Maurice_Cam> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/La_taverna_della_libert\u00E0> ;
+	sh:value <http://dbpedia.org/resource/Umberto_Spadaro> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/La_taverna_della_libert\u00E0> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/La_taverna_della_libert\u00E0> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Lassie_(1994_film)> ;
+	sh:value <http://dbpedia.org/resource/Daniel_Petrie> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Lassie_(1994_film)> ;
+	sh:value <http://dbpedia.org/resource/Helen_Slater> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Lassie_(1994_film)> ;
+	sh:value <http://dbpedia.org/resource/Frederic_Forrest> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Lassie_(1994_film)> ;
+	sh:value <http://dbpedia.org/resource/Tom_Guiry> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Lassie_(1994_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Lassie_(1994_film)> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Left_Luggage_(film)> ;
+	sh:value <http://dbpedia.org/resource/Jeroen_Krabb\u00E9> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Left_Luggage_(film)> ;
+	sh:value <http://dbpedia.org/resource/Jeroen_Krabb\u00E9> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Left_Luggage_(film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Left_Luggage_(film)> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Local_Hero_(film)> ;
+	sh:value <http://dbpedia.org/resource/Bill_Forsyth> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Local_Hero_(film)> ;
+	sh:value <http://dbpedia.org/resource/Fulton_Mackay> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Local_Hero_(film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MaxCountConstraintComponent ;
+	sh:sourceShape _:n550 ;
+	sh:focusNode <http://dbpedia.org/resource/Local_Hero_(film)> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: dbo:budget should be single-valued; multiple budgets may indicate duplicates or alternative sources."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Love_from_Paris> ;
+	sh:value <http://dbpedia.org/resource/Helmut_K\u00E4utner> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Love_from_Paris> ;
+	sh:value <http://dbpedia.org/resource/Horst_Buchholz> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Love_from_Paris> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Love_from_Paris> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Loverboy_(2005_film)> ;
+	sh:value <http://dbpedia.org/resource/Kevin_Bacon> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Loverboy_(2005_film)> ;
+	sh:value <http://dbpedia.org/resource/Blair_Brown> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Loverboy_(2005_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Loverboy_(2005_film)> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Marx_Reloaded> ;
+	sh:value <http://dbpedia.org/resource/Jason_Barker> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Marx_Reloaded> ;
+	sh:value <http://dbpedia.org/resource/Jason_Barker> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Marx_Reloaded> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Marx_Reloaded> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Metropolis_(2001_film)> ;
+	sh:value <http://dbpedia.org/resource/Rintaro> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Metropolis_(2001_film)> ;
+	sh:value <http://dbpedia.org/resource/Norihiro_Inoue> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Metropolis_(2001_film)> ;
+	sh:value <http://dbpedia.org/resource/Toshio_Furukawa> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Metropolis_(2001_film)> ;
+	sh:value <http://dbpedia.org/resource/K\u014Dsei_Tomita> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Metropolis_(2001_film)> ;
+	sh:value <http://dbpedia.org/resource/Masaru_Ikeda> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Metropolis_(2001_film)> ;
+	sh:value <http://dbpedia.org/resource/Takeshi_Aono> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Metropolis_(2001_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Mickey_and_the_Seal> ;
+	sh:value <http://dbpedia.org/resource/Charles_August_Nichols> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Mickey_and_the_Seal> ;
+	sh:value <http://dbpedia.org/resource/Pinto_Colvig> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Mickey_and_the_Seal> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Mickey_and_the_Seal> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Monsters_University> ;
+	sh:value <http://dbpedia.org/resource/Dan_Scanlon> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Monsters_University> ;
+	sh:value <http://dbpedia.org/resource/John_Goodman> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Monsters_University> ;
+	sh:value <http://dbpedia.org/resource/Joel_Murray> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Monsters_University> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Oblivion_(2013_film)> ;
+	sh:value <http://dbpedia.org/resource/Joseph_Kosinski> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Oblivion_(2013_film)> ;
+	sh:value <http://dbpedia.org/resource/Morgan_Freeman> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Oblivion_(2013_film)> ;
+	sh:value <http://dbpedia.org/resource/Olga_Kurylenko> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Oblivion_(2013_film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Ocean\u0027s_Thirteen> ;
+	sh:value <http://dbpedia.org/resource/Steven_Soderbergh> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Ocean\u0027s_Thirteen> ;
+	sh:value <http://dbpedia.org/resource/Eddie_Jemison> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Ocean\u0027s_Thirteen> ;
+	sh:value <http://dbpedia.org/resource/Don_Cheadle> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Ocean\u0027s_Thirteen> ;
+	sh:value <http://dbpedia.org/resource/Matt_Damon> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Ocean\u0027s_Thirteen> ;
+	sh:value <http://dbpedia.org/resource/Brad_Pitt> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Ocean\u0027s_Thirteen> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Paint_Your_Wagon_(film)> ;
+	sh:value <http://dbpedia.org/resource/Joshua_Logan> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Paint_Your_Wagon_(film)> ;
+	sh:value <http://dbpedia.org/resource/Ray_Walston> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Paint_Your_Wagon_(film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Parash_Pathar> ;
+	sh:value <http://dbpedia.org/resource/Satyajit_Ray> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Parash_Pathar> ;
+	sh:value <http://dbpedia.org/resource/Chhabi_Biswas> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Parash_Pathar> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Parash_Pathar> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Paris_36> ;
+	sh:value <http://dbpedia.org/resource/Christophe_Barratier> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Paris_36> ;
+	sh:value <http://dbpedia.org/resource/Kad_Merad> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Paris_36> ;
+	sh:value <http://dbpedia.org/resource/G\u00E9rard_Jugnot> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Paris_36> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Paris_Blues> ;
+	sh:value <http://dbpedia.org/resource/Martin_Ritt> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Paris_Blues> ;
+	sh:value <http://dbpedia.org/resource/Diahann_Carroll> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Paris_Blues> ;
+	sh:value <http://dbpedia.org/resource/Serge_Reggiani> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Paris_Blues> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Paris_Blues> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Pretty_Persuasion> ;
+	sh:value <http://dbpedia.org/resource/Marcos_Siega> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Pretty_Persuasion> ;
+	sh:value <http://dbpedia.org/resource/Elisabeth_Harnois> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Pretty_Persuasion> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Queens_(film)> ;
+	sh:value <http://dbpedia.org/resource/Manuel_G\u00F3mez_Pereira> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Queens_(film)> ;
+	sh:value <http://dbpedia.org/resource/Carmen_Maura> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Queens_(film)> ;
+	sh:value <http://dbpedia.org/resource/Marisa_Paredes> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Queens_(film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Queens_(film)> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://dbpedia.org/resource/Repossessed_(film)> ;
+	sh:value <http://dbpedia.org/resource/Bob_Logan_(film_director)> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://dbpedia.org/resource/Repossessed_(film)> ;
+	sh:value <http://dbpedia.org/resource/Ned_Beatty> ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://dbpedia.org/resource/Repossessed_(film)> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://dbpedia.org/resource/Repossessed_(film)> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .

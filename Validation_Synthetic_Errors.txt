@@ -1,0 +1,344 @@
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n533 ;
+	sh:focusNode <http://example.org/errors/ShawshankRedemption_Error> ;
+	sh:resultPath rdfs:label ;
+	sh:resultMessage "A film must have at least one English rdfs:label (language-tagged literal @en)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/ShawshankRedemption_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://example.org/errors/ShawshankRedemption_Error> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:LanguageInConstraintComponent ;
+	sh:sourceShape _:n533 ;
+	sh:focusNode <http://example.org/errors/TheGodfather_Error> ;
+	sh:value "Kmotr"@cs ;
+	sh:resultPath rdfs:label ;
+	sh:resultMessage "A film must have at least one English rdfs:label (language-tagged literal @en)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/TheGodfather_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://example.org/errors/TheGodfather_Error> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n535 ;
+	sh:focusNode <http://example.org/errors/TheDarkKnight_Error> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "A film must have at least one dbo:director, and the value must be an IRI."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/TheDarkKnight_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://example.org/errors/TheDarkKnight_Error> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NodeKindConstraintComponent ;
+	sh:sourceShape _:n535 ;
+	sh:focusNode <http://example.org/errors/PulpFiction_Error> ;
+	sh:value "Quentin Tarantino" ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "A film must have at least one dbo:director, and the value must be an IRI."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://example.org/errors/PulpFiction_Error> ;
+	sh:value "Quentin Tarantino" ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/PulpFiction_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://example.org/errors/PulpFiction_Error> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n536 ;
+	sh:focusNode <http://example.org/errors/ForrestGump_Error> ;
+	sh:resultPath dbo:runtime ;
+	sh:resultMessage "A film must have dbo:runtime; it must be numeric and between 60 and 18000 seconds (1 min .. 5 hours)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/ForrestGump_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://example.org/errors/ForrestGump_Error> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:OrConstraintComponent ;
+	sh:sourceShape _:n536 ;
+	sh:focusNode <http://example.org/errors/Inception_Error> ;
+	sh:value "Two Hours and Twenty Minutes" ;
+	sh:resultPath dbo:runtime ;
+	sh:resultMessage "A film must have dbo:runtime; it must be numeric and between 60 and 18000 seconds (1 min .. 5 hours)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+	sh:sourceShape _:n536 ;
+	sh:focusNode <http://example.org/errors/Inception_Error> ;
+	sh:value "Two Hours and Twenty Minutes" ;
+	sh:resultPath dbo:runtime ;
+	sh:resultMessage "A film must have dbo:runtime; it must be numeric and between 60 and 18000 seconds (1 min .. 5 hours)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MaxInclusiveConstraintComponent ;
+	sh:sourceShape _:n536 ;
+	sh:focusNode <http://example.org/errors/Inception_Error> ;
+	sh:value "Two Hours and Twenty Minutes" ;
+	sh:resultPath dbo:runtime ;
+	sh:resultMessage "A film must have dbo:runtime; it must be numeric and between 60 and 18000 seconds (1 min .. 5 hours)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://example.org/errors/Inception_Error> ;
+	sh:value <http://example.org/errors/ChristopherNolan> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/Inception_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://example.org/errors/Inception_Error> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+	sh:sourceShape _:n536 ;
+	sh:focusNode <http://example.org/errors/FightClub_Error> ;
+	sh:value "10.0"^^xsd:double ;
+	sh:resultPath dbo:runtime ;
+	sh:resultMessage "A film must have dbo:runtime; it must be numeric and between 60 and 18000 seconds (1 min .. 5 hours)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/FightClub_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://example.org/errors/FightClub_Error> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:MaxCountConstraintComponent ;
+	sh:sourceShape _:n541 ;
+	sh:focusNode <http://example.org/errors/TheMatrix_Error> ;
+	sh:resultPath dbo:releaseDate ;
+	sh:resultMessage "dbo:releaseDate must not be multi-valued; if present, it must be xsd:date or xsd:dateTime."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/TheMatrix_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://example.org/errors/TheMatrix_Error> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n546 ;
+	sh:focusNode <http://example.org/errors/Goodfellas_Error> ;
+	sh:value <http://example.org/errors/MartinScorsese_Untyped> ;
+	sh:resultPath dbo:director ;
+	sh:resultMessage "Recommended: dbo:director resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/Goodfellas_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://example.org/errors/Goodfellas_Error> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/EmpireStrikesBack_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/Titanic_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Violation ;
+	sh:sourceConstraintComponent sh:NodeKindConstraintComponent ;
+	sh:sourceShape _:n545 ;
+	sh:focusNode <http://example.org/errors/Avatar_Error> ;
+	sh:value "Sam Worthington" ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "If dbo:starring is present, each value should be an IRI (link to an actor resource)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+	sh:sourceShape _:n547 ;
+	sh:focusNode <http://example.org/errors/Avatar_Error> ;
+	sh:value "Sam Worthington" ;
+	sh:resultPath dbo:starring ;
+	sh:resultMessage "Recommended: dbo:starring resources should be typed as dbo:Person (may be missing due to incomplete exports)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n548 ;
+	sh:focusNode <http://example.org/errors/Avatar_Error> ;
+	sh:resultPath dbo:genre ;
+	sh:resultMessage "Recommended: a film should have at least one dbo:genre, and genres should be represented as IRIs (DBpedia may omit genres or use literals)."@en ;
+] .
+[
+	a sh:ValidationResult ;
+	sh:resultSeverity sh:Warning ;
+	sh:sourceConstraintComponent sh:MinCountConstraintComponent ;
+	sh:sourceShape _:n549 ;
+	sh:focusNode <http://example.org/errors/Avatar_Error> ;
+	sh:resultPath dbo:budget ;
+	sh:resultMessage "Recommended: a film should have dbo:budget; missing budget reduces data completeness (currencies may vary)."@en ;
+] .

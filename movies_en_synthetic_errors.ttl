@@ -1,0 +1,112 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/errors/> .
+
+# SYNTHETIC DATASET: INVALID DATA (Testing Constraints)
+# Same movies as in the valid dataset, but with intentional errors.
+# Each case tests a different SHACL rule.
+
+# 1. The Shawshank Redemption -> VIOLATION: Missing Label
+# Tests rule: FILM_LABEL_EN (minCount 1)
+ex:ShawshankRedemption_Error a dbo:Film ;
+    # rdfs:label "The Shawshank Redemption"@en ; <--- MISSING
+    dbo:director ex:FrankDarabont ;
+    dbo:runtime "8520.0"^^xsd:double ;
+    dbo:releaseDate "1994-09-22"^^xsd:date .
+
+# 2. The Godfather -> VIOLATION: Non-English Label
+# Tests rule: FILM_LABEL_EN (languageIn "en")
+ex:TheGodfather_Error a dbo:Film ;
+    rdfs:label "Kmotr"@cs ;  # <--- ERROR: Missing @en tag, only @cs is present
+    dbo:director ex:FrancisFordCoppola ;
+    dbo:runtime "10500.0"^^xsd:double .
+
+# 3. The Dark Knight -> VIOLATION: Missing Director
+# Tests rule: FILM_DIRECTOR_REQUIRED_IRI (minCount 1)
+ex:TheDarkKnight_Error a dbo:Film ;
+    rdfs:label "The Dark Knight"@en ;
+    # dbo:director ex:ChristopherNolan ; <--- MISSING
+    dbo:runtime "9120.0"^^xsd:double ;
+    dbo:releaseDate "2008-07-18"^^xsd:date .
+
+# 4. Pulp Fiction -> VIOLATION: Director as Literal (Not a Link)
+# Tests rule: FILM_DIRECTOR_REQUIRED_IRI (nodeKind sh:IRI)
+ex:PulpFiction_Error a dbo:Film ;
+    rdfs:label "Pulp Fiction"@en ;
+    dbo:director "Quentin Tarantino" ; # <--- ERROR: It is a String, must be a URI
+    dbo:runtime "9240.0"^^xsd:double .
+
+# 5. Forrest Gump -> VIOLATION: Missing Runtime
+# Tests rule: FILM_RUNTIME_NUMERIC_RANGE (minCount 1)
+ex:ForrestGump_Error a dbo:Film ;
+    rdfs:label "Forrest Gump"@en ;
+    dbo:director ex:RobertZemeckis ;
+    # dbo:runtime "8520.0"^^xsd:double ; <--- MISSING
+    dbo:releaseDate "1994-07-06"^^xsd:date .
+
+# 6. Inception -> VIOLATION: Runtime as String (Not Numeric)
+# Tests rule: FILM_RUNTIME_NUMERIC_RANGE (datatype check)
+ex:Inception_Error a dbo:Film ;
+    rdfs:label "Inception"@en ;
+    dbo:director ex:ChristopherNolan ;
+    dbo:runtime "Two Hours and Twenty Minutes" ; # <--- ERROR: Must be a number
+    dbo:releaseDate "2010-07-16"^^xsd:date .
+
+# 7. Fight Club -> VIOLATION: Runtime Out of Range
+# Tests rule: FILM_RUNTIME_NUMERIC_RANGE (minInclusive 60)
+ex:FightClub_Error a dbo:Film ;
+    rdfs:label "Fight Club"@en ;
+    dbo:director ex:DavidFincher ;
+    dbo:runtime "10.0"^^xsd:double ; # <--- ERROR: Too short (must be min 60s)
+    dbo:releaseDate "1999-10-15"^^xsd:date .
+
+# 8. The Matrix -> VIOLATION: Multiple Release Dates
+# Tests rule: FILM_RELEASEDATE_SINGLE_TYPED (maxCount 1)
+ex:TheMatrix_Error a dbo:Film ;
+    rdfs:label "The Matrix"@en ;
+    dbo:director ex:LanaWachowski ;
+    dbo:runtime "8160.0"^^xsd:double ;
+    dbo:releaseDate "1999-03-31"^^xsd:date ;
+    dbo:releaseDate "2024-01-01"^^xsd:date . # <--- ERROR: Two dates are not allowed
+
+# 9. Goodfellas -> WARNING: Director not Typed as Person
+# Tests rule: FILM_DIRECTOR_PERSON_TYPE (class dbo:Person)
+ex:Goodfellas_Error a dbo:Film ;
+    rdfs:label "Goodfellas"@en ;
+    dbo:director ex:MartinScorsese_Untyped ; # <--- ERROR: Links to an entity without a type
+    dbo:runtime "8760.0"^^xsd:double .
+
+# 10. The Empire Strikes Back -> WARNING: Missing Genre
+# Tests rule: FILM_GENRE_RECOMMENDED_IRI (minCount 1)
+ex:EmpireStrikesBack_Error a dbo:Film ;
+    rdfs:label "The Empire Strikes Back"@en ;
+    dbo:director ex:IrvinKershner ;
+    dbo:runtime "7440.0"^^xsd:double ;
+    # dbo:genre ... <--- MISSING (Recommended property)
+    dbo:budget "18000000.0"^^xsd:double .
+
+# 11. Titanic (Extra) -> WARNING: Budget as String
+# Tests rule: FILM_BUDGET_RECOMMENDED_LITERAL (nodeKind sh:Literal + datatype check)
+ex:Titanic_Error a dbo:Film ;
+    rdfs:label "Titanic"@en ;
+    dbo:director ex:JamesCameron ;
+    dbo:runtime "11700.0"^^xsd:double ;
+    dbo:budget "200 Million USD" . # <--- ERROR: Text instead of number
+
+# 12. Avatar (Extra) -> WARNING: Starring Actor as Literal
+# Tests rule: FILM_STARRING_IRI_IF_PRESENT (nodeKind sh:IRI)
+ex:Avatar_Error a dbo:Film ;
+    rdfs:label "Avatar"@en ;
+    dbo:director ex:JamesCameron ;
+    dbo:runtime "9720.0"^^xsd:double ;
+    dbo:starring "Sam Worthington" . # <--- ERROR: Text instead of URI
+
+ex:FrankDarabont a dbo:Person .
+ex:FrancisFordCoppola a dbo:Person .
+ex:RobertZemeckis a dbo:Person .
+ex:DavidFincher a dbo:Person .
+ex:LanaWachowski a dbo:Person .
+ex:IrvinKershner a dbo:Person .
+ex:JamesCameron a dbo:Person .
+
